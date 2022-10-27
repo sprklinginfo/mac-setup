@@ -63,8 +63,12 @@ This will also install the xcode build tools which is needed by many other devel
 
 After Homebrew is done installing, we will use it to install everything else we need.
 
-*Note*
-It kept failing when install homebrew in new M1 as it was disconnected during installation several times. Eventually found someone commented that it was due to Internet so I tried to logged into VPN and then run the command to complete the installation. 
+**Note**
+
+> It kept failing when install homebrew in new M1 as it was disconnected during installation several times. Eventually found someone commented that it was due to Internet so I tried to logged into VPN and then run the command to complete the installation. 
+> 
+> run `export PATH=$PATH:/opt/homebrew/bin` if zsh says 'brew not found`
+
 
 ### Terminal
 
