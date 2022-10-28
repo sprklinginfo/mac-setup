@@ -20,16 +20,13 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
   - [Window Management](#window-management)
   - [App Switching](#app-switching)
   - [Quick Launching](#quick-launching)
-- [Other Apps I Use Daily](#other-apps-i-use-daily)
+- [Other Apps I Use Daily](#other-apps)
 - [OS Settings](#os-settings)
   - [Finder](#finder)
   - [Dock](#dock)
 - [Menu Bar Customization](#menu-bar-customization)
   - [System Stats Widgets](#system-stats-widgets)
   - [Menu Bar Calendar](#menu-bar-calendar)
-- [Note Taking](#note-taking)
-- [Web Browser](#web-browser)
-  - [Firefox](#firefox)
 - [Node.js](#nodejs)
   - [Global Modules](#global-modules)
 - [VS Code](#vs-code)
@@ -294,45 +291,6 @@ I don't use the Dock at all. It takes up screen space, and I can use Alfred to l
       * Size -> Small as possible
       * Position on screen -> Right
       * Automatically hide and show the Dock -> Yes
-
-
-### Menu Bar Calendar
-
-I like to have a calendar in the menu bar that I can quickly look at. stats does not include one, so I found [itsycal](https://www.mowglii.com/itsycal/). It seems fine for my needs.
-
-```sh
-brew install itsycal
-```
-
-itsycal shows the date, so I hide the date in the system menu bar widget:
-
-* System Preferences
-  * Dock & Menu Bar
-      * Clock
-          * Show Date -> Never
-          * Show Day of Week -> No
-
-## Note Taking
-
-There are likely a million other better options, but I have used [Sublime Text](https://www.sublimetext.com/) as a note taking app for years now. I essentially use it as a staging area before moving my notes into a more permanent place (Google Docs, Google Keep, Trello, actual code project READMES etc.) or I delete the note (close the tab) after it has served its purpose.
-
-I use sublime because it allows me to open new tabs / files without the need to save a given file. I can have several tabs / staging areas open and then completely close sublime. When I open it back up, all of my tabs are still there.
-
-## Web Browser
-
-### Firefox
-
-I use Firefox because it is open source and comes from the [Mozilla Foundation](https://www.mozilla.org/en-US/about/manifesto/), a non profit company that [respects my privacy](https://www.mozilla.org/en-US/firefox/privacy/).
-
-I use the following extensions to protect my privacy while browsing the web:
-
-* Adblocker - [uBlock Origin](https://github.com/gorhill/uBlock)
-* Tracker Blocker - [Privacy Badger](https://privacybadger.org/)
-  * Firefox now includes tracker blocking, but I leave Privacy Badger enabled.
-* [Cookie Autodelete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete)
-  * Removes cookies from websites that are not in my whitelist whenever a tab is closed. An additional precaution to tracker blocking.
-* [Decentraleyes](https://decentraleyes.org/)
-  * Caches CDN links locally and intercepts requests to serve from the cache. Prevents CDNs from tracking you across websites.
 
 
 ## Node.js
