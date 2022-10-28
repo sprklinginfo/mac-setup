@@ -223,15 +223,6 @@ git config --global user.email cj@null.computer
 git config --global core.editor nano
 ```
 
-#### Other command line tools I use
-
-* [ffmpeg](https://en.wikipedia.org/wiki/FFmpeg) - edit videos from the command line
-* [imagemagick](https://en.wikipedia.org/wiki/ImageMagick) - edit images from the command line
-
-```sh
-brew install ffmpeg
-brew install imagemagick
-```
 
 ## OS Productivity
 
