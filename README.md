@@ -6,7 +6,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [What Macbook do I have?](#what-macbook-do-i-have)
+- [What Macbook do I have?](#macbook-pro-specs)
 - [Homebrew / Terminal / Shell](#homebrew--terminal--shell)
   - [Homebrew](#homebrew)
   - [Terminal](#terminal)
