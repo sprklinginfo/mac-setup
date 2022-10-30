@@ -11,7 +11,32 @@ Launch VS code, click the extentions icon.
   - Run Laravel Artisan commands within Visual Studio Code
 - Laravel Blade Snippets by Winnie Lin
   - Laravel blade snippets and syntax highlight support
-  - 
+- Laravel Blade Spacer by Austen Cameron
+  - Automatically add spaces in Laravel Blade template tags
+- Laravel Extra Intellisense by amir
+  - better intellisense for laravel projects.
+- PHP Intelephense by Ben Mewburn
+  - PHP code intelligence for Visual Studio Code
+- Laravel goto view by codingyu
+  - Quick jump to view
+- Laravel Goto by Adrian
+- Laravel Snippets by Winnie Lin
+  -  Laravel snippets for Visual Studio Code (Support Laravel 5 and above)
+- PHP DocBlocker by Neil Brayfield
+  - A simple, dependency free PHP specific DocBlocking package
+- PHPDoc Comment by Rex Shi
+  - Add phpdoc @param and @return tag for selected function signatures.
+Install
+- PHP Namespace Resolver by Mehedi Hassan
+- DotENV by mikestead
+  - Support for dotenv file syntax
+- Dotenv Official +Vault  by Dotenv
+- Paste JSON as Code by quicktype
+  - Copy JSON, paste as Go, TypeScript, C#, C++ and more.
+- 
+
+
+
 
 
 
