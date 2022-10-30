@@ -33,7 +33,9 @@ Install
 - Dotenv Official +Vault  by Dotenv
 - Paste JSON as Code by quicktype
   - Copy JSON, paste as Go, TypeScript, C#, C++ and more.
-- 
+- Tailwind CSS IntelliSense by Tailwind Labs
+  - Intelligent Tailwind CSS tooling for VS Code
+  - 
 
 
 
