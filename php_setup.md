@@ -1,6 +1,17 @@
 
 # Development tools installed for php/laravel development
 
+- [PHP/Laravel Tools]
+- [VS Code IDE extentions](#user-content-development-tools-installed-for-phplaravel-development)
+
+## PHP/Laravel Tools
+
+### PHP formula
+```sh
+brew install php
+```
+
+
 ## VS Code IDE extentions
 
 Launch VS code, click the extentions icon.
