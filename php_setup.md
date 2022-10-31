@@ -35,7 +35,10 @@ Install
   - Copy JSON, paste as Go, TypeScript, C#, C++ and more.
 - Tailwind CSS IntelliSense by Tailwind Labs
   - Intelligent Tailwind CSS tooling for VS Code
-  - 
+- Material Icon Theme by Philipp Kief
+- Thunder Client by Ranga Vadhineni
+  - Lightweight Rest API Client for VS Code
+- Svg Preview by Simon Siefke
 
 
 
