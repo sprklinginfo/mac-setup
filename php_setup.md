@@ -1,7 +1,7 @@
 
 # Development tools installed for php/laravel development
 
-- [PHP/Laravel Tools]
+- [PHP/Laravel Tools](#user-content-phplaravel-tools)
 - [VS Code IDE extentions](#user-content-development-tools-installed-for-phplaravel-development)
 
 ## PHP/Laravel Tools
