@@ -36,6 +36,10 @@ then config and install Valet and DnsMasq
 valet install
 ```
 
+### DBngin
+download and install [DBngin](https://dbngin.com/)
+
+
 
 
 ## VS Code IDE extentions
