@@ -182,6 +182,11 @@ Copy this file (or create your own) in your home directory:
 cd ~
 curl -O https://raw.githubusercontent.com/w3cj/dotfiles/master/.bash_profile
 ```
+Change the prompt of the bash, edit the .bash_profile with the following line:
+```sh
+export PS1="\u$ "
+```
+
 
 
 #### Install the latest version of git
