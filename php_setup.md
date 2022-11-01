@@ -6,10 +6,16 @@
 
 ## PHP/Laravel Tools
 
-### PHP formula
+### PHP
 ```sh
 brew install php
 ```
+### composer
+```sh
+brew install composer
+```
+
+
 
 
 ## VS Code IDE extentions
