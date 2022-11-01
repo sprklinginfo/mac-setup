@@ -39,7 +39,12 @@ valet install
 ### DBngin
 download and install [DBngin](https://dbngin.com/)
 
-
+### PHP Monitor for Valet
+[phpmon](https://github.com/nicoverbruggen/phpmon) is a lightweight macOS utility app that runs on your Mac and displays the active PHP version in your status bar. It's tightly integrated with Laravel Valet.
+```sh
+brew tap nicoverbruggen/homebrew-cask
+brew install --cask phpmon
+```
 
 
 ## VS Code IDE extentions
