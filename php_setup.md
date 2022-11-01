@@ -14,7 +14,10 @@ brew install php
 ```sh
 brew install composer
 ```
-
+Add the following link to `.bash_profile` file:
+```sh
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+```
 
 
 
