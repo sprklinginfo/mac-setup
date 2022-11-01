@@ -14,9 +14,18 @@ brew install php
 ```sh
 brew install composer
 ```
-Add the following link to `.bash_profile` file:
+Add the following line to `.bash_profile` file:
 ```sh
 export PATH="$HOME/.composer/vendor/bin:$PATH"
+```
+
+### Laravel Valet
+```sh
+composer global require laravel/valet
+```
+then config and install Valet and DnsMasq
+```sh
+valet install
 ```
 
 
