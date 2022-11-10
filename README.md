@@ -20,7 +20,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
   - [Window Management](#window-management)
   - [App Switching](#app-switching)
   - [Quick Launching](#quick-launching)
-- [Other Apps I Use Daily](#other-apps)
+- [Other Apps Installed](#other-apps)
 - [OS Settings](#os-settings)
   - [Finder](#finder)
   - [Dock](#dock)
