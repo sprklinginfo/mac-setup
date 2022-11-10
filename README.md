@@ -251,6 +251,7 @@ brew install alt-tab
 * [visual-studio-code](https://code.visualstudio.com/) - Code Editor
 * [sublime-text](https://www.sublimetext.com/) - Note taking (I know there are better apps...)
 * [insomnia](https://insomnia.rest/products/insomnia) - HTTP / REST / GraphQL tester / requester
+* [BetterDisplay](https://github.com/waydabber/BetterDisplay) - fix text blurry issue for external monitors
 
 You can install them in one go by placing them all into a text file and then running brew install:
 
