@@ -252,6 +252,7 @@ brew install alt-tab
 * [sublime-text](https://www.sublimetext.com/) - Note taking (I know there are better apps...)
 * [insomnia](https://insomnia.rest/products/insomnia) - HTTP / REST / GraphQL tester / requester
 * [BetterDisplay](https://github.com/waydabber/BetterDisplay) - fix text blurry issue for external monitors
+* [snipaste](https://www.snipaste.com/) - for taking screenshots
 
 You can install them in one go by placing them all into a text file and then running brew install:
 
