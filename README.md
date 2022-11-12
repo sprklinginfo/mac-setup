@@ -214,6 +214,28 @@ git config --global user.email cj@null.computer
 git config --global core.editor nano
 ```
 
+```sh
+nano .gitignore-global
+```
+```sh
+# JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+## Directory-based project format
+.idea/
+## File-based project format
+*.ipr
+*.iws
+*.iml
+# Visual Studio Code
+.vscode/
+.vs/
+# Mac
+.DS_Store
+# Windows
+Thumbs.db
+```
+
+
+
 
 ## OS Productivity
 
