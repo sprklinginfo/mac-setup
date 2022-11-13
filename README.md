@@ -234,7 +234,9 @@ nano .gitignore-global
 Thumbs.db
 ```
 
-
+```sh
+git config --global core.excludesfile ~/.gitignore-global
+```
 
 
 ## OS Productivity
