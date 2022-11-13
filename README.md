@@ -402,4 +402,4 @@ In a terminal, run:
 ```sh
 softwareupdate --install-rosetta --agree-to-license
 ```
-Check out [here](https://www.roguelynn.com/words/m1-dev-setup/#step3-3) about how Rosetta might impact dev enviroment.
+Check out [here](https://www.roguelynn.com/words/m1-dev-setup/#step3-3) about how Rosetta might impact dev enviroment, espeically for Python development. 
