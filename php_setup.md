@@ -46,6 +46,9 @@ brew tap nicoverbruggen/homebrew-cask
 brew install --cask phpmon
 ```
 
+### Valet Launchpad
+[Valet Launchpad](https://github.com/gbuckingham89/valet-launchpad): A web based UI for browsing the projects being served by Laravel Valet, show all the projects being served by Laravel Valet, give you quick access to all the URLs it's served via (linked or parked) and will highlight if there is a match / mismatch with your current PHP version. 
+
 
 ## VS Code IDE extentions
 
