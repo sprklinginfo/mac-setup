@@ -396,3 +396,10 @@ I have it setup to show:
 
 There is also a cross platform break timer call [Stretchly](https://hovancik.net/stretchly/). I have not used it but a lot of people have recommended it.
 
+## Rosetta 2
+Rosetta 2 is an “emulator” or a translator for software built for Intel-based processors to run on Apple’s Silicon/M1 processors.
+In a terminal, run:
+```sh
+softwareupdate --install-rosetta --agree-to-license
+```
+Check out [here](https://www.roguelynn.com/words/m1-dev-setup/#step3-3) about how Rosetta might impact dev enviroment.
