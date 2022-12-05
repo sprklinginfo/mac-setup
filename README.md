@@ -277,6 +277,7 @@ brew install alt-tab
 * [insomnia](https://insomnia.rest/products/insomnia) - HTTP / REST / GraphQL tester / requester
 * [BetterDisplay](https://github.com/waydabber/BetterDisplay) - fix text blurry issue for external monitors
 * [snipaste](https://www.snipaste.com/) - for taking screenshots
+* [PuTTY SSH client for Mac OSX](https://www.ssh.com/academy/ssh/putty/mac) - SSH client
 
 You can install them in one go by placing them all into a text file and then running brew install:
 
@@ -288,11 +289,16 @@ kap
 visual-studio-code
 sublime-text
 insomnia
+putty
 ```
 
 ```sh
 xargs brew install < apps.txt
 ```
+```sh
+brew install putty
+```
+
 
 ## OS Settings
 
