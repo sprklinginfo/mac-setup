@@ -50,6 +50,25 @@ brew install --cask phpmon
 [Valet Launchpad](https://github.com/gbuckingham89/valet-launchpad): A web based UI for browsing the projects being served by Laravel Valet, show all the projects being served by Laravel Valet, give you quick access to all the URLs it's served via (linked or parked) and will highlight if there is a match / mismatch with your current PHP version. 
 
 
+### Mailhog
+```sh
+brew install mailhog
+brew services start mailhog
+```
+After that we can access mailhog web interface here:
+[mailhog web](http://127.0.0.1:8025/)
+
+To stop the service:
+```sh
+brew services stop mailhog
+```
+
+May need to add this line in `php.ini` file:
+```sh
+sendmail_path = /usr/local/bin/MailHog sendmail
+```
+
+
 ## VS Code IDE extentions
 
 Launch VS code, click the extentions icon.
