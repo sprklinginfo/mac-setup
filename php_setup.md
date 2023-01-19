@@ -85,6 +85,11 @@ nvm install 16.19
 nvm use 16 ### node --version will output v16.19.0
 ```
 
+**For apple M1, versions under Node 14 are not supported. so we need to install them via Rosetta**
+How to open terminal in Rosetta2 mode: 
+ - Go to Application -> Right click on terminal app -> Get Info -> Select "Open using Rosetta" -> Restart Terminal
+In Terminal, write -> arch -x86_64 zsh or arch -x86_64 zsh
+then run `nvm install 14`
 
 
 ## VS Code IDE extentions
