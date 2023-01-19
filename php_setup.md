@@ -68,6 +68,23 @@ May need to add this line in `php.ini` file:
 sendmail_path = /usr/local/bin/MailHog sendmail
 ```
 
+## Node.js
+have to use nvm to managed multiple version as larave 7 has 'opensslErrorStack' error if using node 17+.
+
+first uninstall existing node
+```sh
+brew uninstall --ignore-dependencies node
+brew uninstall --force node
+```
+Install NVM using Homebrew
+```sh
+brew install nvm
+nvm install --lts ### As of Jan, 18m 2023, the version is v18.13
+nvm install 16.19
+nvm use 16 ### node --version will output v16.19.0
+```
+
+
 
 ## VS Code IDE extentions
 
