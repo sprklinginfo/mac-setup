@@ -2,6 +2,7 @@
 # Development tools installed for php/laravel development
 
 - [PHP/Laravel Tools](#phplaravel-tools)
+- [Node.js](#nodejs)
 - [VS Code IDE extentions](#vs-code-ide-extentions)
 
 ## PHP/Laravel Tools
@@ -69,7 +70,7 @@ sendmail_path = /usr/local/bin/MailHog sendmail
 ```
 
 ## Node.js
-have to use nvm to managed multiple version as larave 7 has 'opensslErrorStack' error if using node 17+.
+have to use [nvm](https://github.com/nvm-sh/nvm) to managed multiple version as larave 7 has 'opensslErrorStack' error if using node 17+.
 
 first uninstall existing node
 ```sh
