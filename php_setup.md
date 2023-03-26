@@ -2,7 +2,7 @@
 # Development tools installed for php/laravel development
 
 - [PHP/Laravel Tools](#phplaravel-tools)
-- [Node.js](#nodejs)
+- [Node.js/nvm](#nodejs)
 - [VS Code IDE extentions](#vs-code-ide-extentions)
 
 ## PHP/Laravel Tools
@@ -83,6 +83,8 @@ brew install nvm
 nvm install --lts ### As of Jan, 18m 2023, the version is v18.13
 nvm install 16.19
 nvm use 16 ### node --version will output v16.19.0
+nvm ls ### list all installed versions
+nvm alias default 16.19 ### set default version of node
 ```
 
 **For apple M1, versions under Node 14 are not supported. so we need to install them via Rosetta**
