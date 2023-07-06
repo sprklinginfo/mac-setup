@@ -70,9 +70,9 @@ sendmail_path = /usr/local/bin/MailHog sendmail
 ```
 
 ## Node.js
-have to use [nvm](https://github.com/nvm-sh/nvm) to managed multiple version as larave 7 has 'opensslErrorStack' error if using node 17+.
+have to use [nvm](https://github.com/nvm-sh/nvm) to manage multiple versions as laravel 7 has 'opensslErrorStack' error if using node 17+.
 
-first uninstall existing node
+first, uninstall existing node
 ```sh
 brew uninstall --ignore-dependencies node
 brew uninstall --force node
@@ -87,12 +87,14 @@ nvm ls ### list all installed versions
 nvm alias default 16.19 ### set default version of node
 ```
 
-**For apple M1, versions under Node 14 are not supported. so we need to install them via Rosetta**
-How to open terminal in Rosetta2 mode: 
+**For Apple M1, versions under Node 14 are not supported. so we need to install them via Rosetta**
+How to open the terminal in Rosetta2 mode: 
  - Go to Application -> Right click on terminal app -> Get Info -> Select "Open using Rosetta" -> Restart Terminal
 In Terminal, write -> arch -x86_64 zsh or arch -x86_64 zsh
 then run `nvm install 14`
 
+**Notes on July 5, 2023, use PNPM for node package management**
+download and install [Pnpm](https://pnpm.io/)
 
 ## VS Code IDE extentions
 
