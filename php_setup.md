@@ -94,6 +94,7 @@ In Terminal, write -> arch -x86_64 zsh or arch -x86_64 zsh
 then run `nvm install 14`
 
 **Notes on July 5, 2023, use PNPM for node package management**
+
 download and install [Pnpm](https://pnpm.io/)
 
 ## VS Code IDE extentions
