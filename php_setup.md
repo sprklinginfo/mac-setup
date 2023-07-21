@@ -13,9 +13,10 @@ brew install php
 ```
 the above command install the latest PHP, to install a specific version of PHP other than the latest version you need to use the @ notation. For example : `brew install php@7.4`.
 If you already have a version of PHP installed and need to switch to another version, you need to first unlink the version you’re running and link the new version. For example:
+example to switch from 8.1 to 7.4
 ```sh
-brew unlink php@8.1
-brew link php@7.4
+brew unlink php
+ brew link --overwrite php@7.4
 ```
 
 
