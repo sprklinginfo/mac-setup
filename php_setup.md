@@ -16,7 +16,9 @@ If you already have a version of PHP installed and need to switch to another ver
 example to switch from 8.1 to 7.4
 ```sh
 brew unlink php
- brew link --overwrite php@7.4
+brew link --overwrite php@7.4
+echo 'export PATH="/opt/homebrew/opt/php@8.1/bin:$PATH"' >> /Users/xxxx/.bash_profile
+  echo 'export PATH="/opt/homebrew/opt/php@8.1/sbin:$PATH"' >> /Users/xxxx/.bash_profile
 ```
 
 
